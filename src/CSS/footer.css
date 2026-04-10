@@ -1,0 +1,37 @@
+.footer{
+    background: var(--azul-secundario);
+    color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        img{
+            width: 20vw;
+            max-width: 100px;
+        }
+
+        p{
+            margin-bottom: 0;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    .links{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        a{
+            color: #fff;
+        }
+    }
+}
